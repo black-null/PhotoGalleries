@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css" />
+    <script src="script.js"></script>
+    <script src="js/gallery.js"></script>
+  </head>
+
+  <body onload="addTabIndex()">
+    <div id="image">Hover over an image below to display here.</div>
+
+    <img
+      class="preview"
+      alt="Styling with a Bandana"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="upDate(this)"
+      onblur="unDo()"
+    />
+
+    <img
+      class="preview"
+      alt="With My Boy"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="upDate(this)"
+      onblur="unDo()"
+    />
+
+    <img
+      class="preview"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg"
+      alt="Young Puppy"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="upDate(this)"
+      onblur="unDo()"
+    />
+
+    <img
+      class="preview"
+      alt="Olive Tree and Tables in front of a Building"
+      src="images/olive_tree.jpg"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="upDate(this)"
+      onblur="unDo()"
+    />
+
+    <img
+      class="preview"
+      alt="Blooming Sunflower in Nature"
+      src="images/sunflower.jpg"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="upDate(this)"
+      onblur="unDo()"
+    />
+
+    <img
+      class="preview"
+      src="images/coffe_beans.jpg"
+      alt="Roasted Coffee Beans"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="upDate(this)"
+      onblur="unDo()"
+    />
+  </body>
+</html>
